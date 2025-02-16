@@ -1,5 +1,5 @@
 run:
-	docker compose up
+	docker compose up -d
 install:
 	make migrations
 	make migrate
